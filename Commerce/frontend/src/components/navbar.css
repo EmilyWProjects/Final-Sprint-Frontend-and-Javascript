@@ -1,0 +1,26 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(90deg, rgb(0, 169, 215), rgb(255, 215, 253));
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30pt;
+  font-family: "Edwardian Script ITC";
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+
+

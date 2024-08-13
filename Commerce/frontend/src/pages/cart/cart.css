@@ -1,0 +1,52 @@
+h1 {
+  font-size: 50pt;
+  font-family: "Edwardian Script ITC";
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.cartItem img {
+  padding-left: 50px;
+  width: 100px;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 15pt;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(253, 213, 255);
+  color: black;
+  border: 5px solid rgb(143, 225, 255);
+  font-family: "Centaur";
+  font-weight: 600;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
